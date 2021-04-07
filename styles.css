@@ -99,12 +99,13 @@ body {
 
 /*index*/
 .img-titel {
-  width: 65vw;
+  width: 66vw;
   display: block;
   margin-left: auto;
   margin-right: auto;
   opacity: 0.9;
   border-radius: 5px;
+  margin-bottom: 3%;
   
 }
 
@@ -130,7 +131,24 @@ body {
 }
 
 .pWrap{
-  margin-left: 2%;
-  margin-right: 2%;
+  margin-left: 9%;
+  margin-right: 9%;
   color: #2F2F2F;
+}
+
+.line{
+  border: 0; 
+  border-top: 2px;
+  border-radius: 5px;
+  margin-left: 9%;
+  margin-right: 9%;
+  margin-top: 8vh;
+  margin-bottom: 8vh;
+  border-color: #cacaca;
+  border-style: solid;
+
+}
+
+.containerPicLinks{
+  display: inline;
 }

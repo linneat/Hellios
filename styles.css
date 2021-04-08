@@ -23,7 +23,7 @@ body {
 .nav {
   height: 75px;
   background-color: white;
-  overflow: hidden;
+ /* overflow: hidden;*/
   padding-left: 10%;
   padding-right: 10%;
 }

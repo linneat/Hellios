@@ -23,7 +23,7 @@ body {
 .nav {
   height: 75px;
   background-color: white;
- /* overflow: hidden;*/
+  /* overflow: hidden;*/
   padding-left: 10%;
   padding-right: 10%;
 }
@@ -106,13 +106,12 @@ body {
   opacity: 0.9;
   border-radius: 5px;
   margin-bottom: 3%;
-  
 }
 
-.textOnPhoto{
-    position: relative;
-    text-align: center;
-    color: white;
+.textOnPhoto {
+  position: relative;
+  text-align: center;
+  color: white;
 }
 
 .headingCenter {
@@ -123,21 +122,21 @@ body {
   transform: translate(-50%, -50%);
 }
 
-.heading2Center{
+.heading2Center {
   position: absolute;
   top: 48%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.pWrap{
+.pWrap {
   margin-left: 9%;
   margin-right: 9%;
-  color: #2F2F2F;
+  color: #2f2f2f;
 }
 
-.line{
-  border: 0; 
+.line {
+  border: 0;
   border-top: 2px;
   border-radius: 5px;
   margin-left: 9%;
@@ -146,9 +145,17 @@ body {
   margin-bottom: 8vh;
   border-color: #cacaca;
   border-style: solid;
-
 }
 
-.containerPicLinks{
-  display: inline;
+.containerPicLinks {
+  display: flex;
+  flex-direction: row;
+  margin-left: 9%;
+  margin-right: 9%;
+  justify-content: space-between;
+}
+
+.imgLink {
+  width: 20vw;
+  border-radius: 5px;
 }

@@ -18,6 +18,10 @@ body {
   padding-right: 10%;
 }
 
+h1{
+  font-weight: normal;
+}
+
 /*navbar*/
 
 .nav {
@@ -36,7 +40,7 @@ body {
   display: inline;
   text-align: center;
   padding: 9px 12px;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .navLi {
@@ -79,6 +83,9 @@ body {
   flex-shrink: 0;
   padding-left: 10%;
   padding-right: 10%;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
 }
 
 .foot ul {
@@ -86,20 +93,25 @@ body {
 }
 
 .foot li {
-  display: inline;
+  display: inline-block;
   text-align: center;
   padding: 9px 12px;
   font-size: 12px;
+  top: 50%;
+  
 }
 
 .footLi {
   color: #575757;
   text-decoration: none;
+  
 }
+
+
 
 /*index*/
 .img-titel {
-  width: 66vw;
+  width: 65vw;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -117,14 +129,14 @@ body {
 .headingCenter {
   font-size: 3vw;
   position: absolute;
-  top: 37%;
+  top: 43%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
 .heading2Center {
   position: absolute;
-  top: 48%;
+  top: 53%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -153,9 +165,29 @@ body {
   margin-left: 9%;
   margin-right: 9%;
   justify-content: space-between;
+  margin-bottom: 9%;
+}
+
+.containerPicLinks a{
+  text-decoration: none;
 }
 
 .imgLink {
   width: 20vw;
   border-radius: 5px;
+}
+
+.retreatLink{
+  position: relative;
+  text-align: center;
+
+}
+
+.textCat{
+  position: absolute;
+  top: 42%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: lighter;
 }

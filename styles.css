@@ -211,3 +211,16 @@ h1 {
   border-radius: 5px;
   margin-bottom: 3%;
 }
+
+.wrapsixPics{
+  margin-bottom: 3%;
+}
+
+.rowPic{
+  display: flex;
+  flex-direction: row;
+  margin-left: 9%;
+  margin-right: 9%;
+  justify-content: space-between;
+  margin-bottom: 2%;
+}

@@ -201,6 +201,9 @@ h1 {
 }
 
 /*Retreat*/
+.selected{
+  text-decoration: underline;
+}
 .headingSize{
   font-size: 2.8vw;
 }

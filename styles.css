@@ -241,6 +241,7 @@ h1 {
   margin-left: 9%;
   margin-right: 9%;
   justify-content: space-between;
+  margin-top: 6%;
 }
 
 .box{
@@ -249,8 +250,24 @@ h1 {
   border-width: 2px;
   border-radius: 5px;
   color: #2f2f2f;
+  width: 47%;
+
+}
+.box ul{
+  padding-inline-start: 5%;
+}
+
+.box li:not(:last-child) {
+  margin-bottom: 5%;
 }
 
 h3{
   color:#585858;
+  text-align: center;
 }
+
+.box-margin{
+  margin: 7%;
+  margin-bottom: 10%;
+}
+

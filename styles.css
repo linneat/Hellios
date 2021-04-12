@@ -204,9 +204,23 @@ h1 {
 .selected{
   text-decoration: underline;
 }
+
+/* .arrow {
+  border: solid #989898;
+  border-radius: 3px;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 8px;
+  transform: rotate(-225deg);
+  -webkit-transform: rotate(-225deg);
+  margin-left: 1.5vw;
+  margin-top: 1.5vw;
+}
+ */
 .headingSize{
   font-size: 2.8vw;
 }
+
 
 .img-titel-cat{
   width: 65vw;
@@ -268,7 +282,7 @@ h3{
 
 .box-margin{
   margin: 7%;
-  margin-bottom: 9vh;
+  margin-bottom: 7vh;
 }
 
 .section{

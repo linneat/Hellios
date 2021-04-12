@@ -235,3 +235,22 @@ h1 {
 .fontItalic{
   font-style: italic;
 }
+
+.boxesWrap{
+  display: flex;
+  margin-left: 9%;
+  margin-right: 9%;
+  justify-content: space-between;
+}
+
+.box{
+  border: #cacaca;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+  color: #2f2f2f;
+}
+
+h3{
+  color:#585858;
+}

@@ -77,7 +77,7 @@ h1 {
   height: 80%;
 }
 /*footer*/
-.footwrap{
+.footwrap {
   align-items: flex-end;
 }
 .foot {
@@ -95,12 +95,11 @@ h1 {
   margin-bottom: 2%;
 }
 
-.lastLineSpace{
+.lastLineSpace {
   padding-top: 1px;
-
 }
 
-.footLiHeading{
+.footLiHeading {
   padding-bottom: 2%;
   padding-top: 9px;
   font-weight: bold;
@@ -113,8 +112,6 @@ h1 {
   top: 50%;
   color: #747474;
 }
-
-
 
 /*index*/
 .img-titel {
@@ -201,7 +198,7 @@ h1 {
 }
 
 /*Retreat*/
-.selected{
+.selected {
   text-decoration: underline;
 }
 
@@ -217,12 +214,11 @@ h1 {
   margin-top: 1.5vw;
 }
  */
-.headingSize{
+.headingSize {
   font-size: 2.8vw;
 }
 
-
-.img-titel-cat{
+.img-titel-cat {
   width: 65vw;
   display: block;
   margin-left: auto;
@@ -232,11 +228,11 @@ h1 {
   margin-bottom: 3%;
 }
 
-.wrapsixPics{
+.wrapsixPics {
   margin-bottom: 5%;
 }
 
-.rowPic{
+.rowPic {
   display: flex;
   flex-direction: row;
   margin-left: 9%;
@@ -246,11 +242,11 @@ h1 {
 }
 
 /*Behandlingsophold*/
-.fontItalic{
+.fontItalic {
   font-style: italic;
 }
 
-.boxesWrap{
+.boxesWrap {
   display: flex;
   margin-left: 9%;
   margin-right: 9%;
@@ -258,20 +254,19 @@ h1 {
   margin-top: 9vh;
 }
 
-.box{
+.box {
   border: #cacaca;
   border-style: solid;
   border-width: 2px;
   border-radius: 5px;
   color: #2f2f2f;
   width: 47%;
-
 }
-.box ul{
+.box ul {
   padding-inline-start: 5%;
 }
 
-.box ul li::marker{
+.box ul li::marker {
   color: #8a8a8a;
 }
 
@@ -279,27 +274,40 @@ h1 {
   margin-bottom: 5%;
 }
 
-h3{
-  color:#585858;
+h3 {
+  color: #585858;
   text-align: center;
 }
 
-.box-margin{
+.box-margin {
   margin: 7%;
   margin-bottom: 7vh;
 }
 
-.section{
+.section {
   margin-top: 9vh;
 }
 
-
 /*hesteoplevelser*/
-.innerSection{
+.innerSection {
   margin-bottom: 7vh;
 }
 
-h4{
+h4 {
   margin-left: 9%;
-  color:#585858;
+  color: #585858;
+}
+
+/*om*/
+.pImgWrap {
+  display: flex;
+  margin-left: 9%;
+  margin-right: 9%;
+}
+
+.portait {
+  height: 210px;
+  width: 100%;
+  margin-top: 3%;
+  margin-left: 4%;
 }

@@ -72,7 +72,7 @@ h1 {
 }
 
 .logo {
-  margin: 0.75%;
+  margin: 7px;
   margin-left: 0%;
   height: 80%;
 }
@@ -233,7 +233,7 @@ h1 {
 }
 
 .wrapsixPics{
-  margin-bottom: 3%;
+  margin-bottom: 5%;
 }
 
 .rowPic{
@@ -293,3 +293,13 @@ h3{
   margin-top: 9vh;
 }
 
+
+/*hesteoplevelser*/
+.innerSection{
+  margin-bottom: 7vh;
+}
+
+h4{
+  margin-left: 9%;
+  color:#585858;
+}

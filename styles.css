@@ -306,8 +306,11 @@ h4 {
 }
 
 .portait {
-  height: 210px;
-  width: 100%;
-  margin-top: 3%;
+  width: 15vw;
+  height: 15vw;
   margin-left: 4%;
+}
+
+.boldFont{
+  font-weight: bold;
 }

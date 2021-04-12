@@ -314,3 +314,12 @@ h4 {
 .boldFont{
   font-weight: bold;
 }
+
+.mapImg{
+  width: 15vw;
+  height: 15vw;
+}
+
+.pMarginImgTop{
+  margin-top: 0;
+}

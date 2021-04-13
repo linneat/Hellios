@@ -40,7 +40,7 @@ h1 {
   display: inline;
   text-align: center;
   padding: 9px 12px;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .navLi {
@@ -326,15 +326,20 @@ h4 {
 
 /*priser*/
 .pricesHeadings{
-  color: #585858;
+  color: #4a4a4a;
   text-align: center;
-  margin-top: 2%;
+  margin-top: 6%;
   margin-bottom: 4%;
+  font-size: 2.8vw;
+}
+
+.kontaktHeading{
+  margin-top: 0%;
 }
 
 .boldCenter{
   text-align: center;
-  color: #585858;
+  color: #4a4a4a;
   font-weight: bold;
 }
 
@@ -348,6 +353,7 @@ h4 {
   padding-bottom: 3%;
   margin:auto;
   margin-top: 2%;
+  margin-bottom: 15%;
 }
 
 .lineInBox{
@@ -355,10 +361,11 @@ h4 {
 }
 
 .priceBox{
-  width: 50%;
+  width: 53%;
   margin-left: 9%;
   margin-right: 9%;
   margin:auto;
+  margin-bottom: 12%;
 }
 
 .row {
@@ -366,11 +373,12 @@ h4 {
 }
 
 .column {
-  flex: 60%;
+  flex: 70%;
 }
 
 .boldH{
   font-weight: bold;
+  color:#4a4a4a;
 }
 
 .columnRightAlign{

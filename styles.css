@@ -22,8 +22,12 @@ h1 {
   font-weight: normal;
 }
 
-p{
-  color:#2f2f2f;
+p {
+  color: #2f2f2f;
+}
+
+span {
+  color: #2f2f2f;
 }
 
 /*navbar*/
@@ -117,6 +121,11 @@ p{
   color: #747474;
 }
 
+.contactLink {
+  color: #747474;
+  text-decoration: none;
+}
+
 /*index*/
 .img-titel {
   width: 65vw;
@@ -148,6 +157,7 @@ p{
   top: 54%;
   left: 50%;
   transform: translate(-50%, -50%);
+  color: white;
 }
 
 .pWrap {
@@ -392,9 +402,75 @@ h4 {
 
 /*Responsive*/
 /* for phones max-width 414px --> the biggest iphones */
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 415px) {
   /*index page*/
+  .nav {
+    height: 40px;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  .logo {
+    margin: 1%;
+  }
+
+  .content {
+    padding-right: 4%;
+    padding-left: 4%;
+  }
+
+  .img-titel {
+    width: 91vw;
+  }
+
+  .headingCenter {
+    font-size: 6vw;
+    top: 32%;
+  }
+  .heading2Center {
+    top: 46%;
+  }
+
+  p {
+    font-size: 13px;
+  }
+
+  .pWrap {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+
+  .line {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .containerPicLinks {
+    flex-direction: column;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+
+  .imgLink {
+    width: 74vw;
+  }
+
+  .paddingTopPhone {
+    margin-top: 5%;
+  }
+
+  .foot {
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 4%;
+    font-size: 13px;
+  }
+
+  .foot ul {
+    float: none;
+    padding-inline-start: 0;
+    margin-bottom: 4%;
+  }
 }
+
 /* for phones max-width 1024px --> for ipads*/
 @media screen and (min-device-width: 415px) and (max-width: 1024px) {
   /* index page*/
@@ -420,7 +496,7 @@ h4 {
     margin-top: 4.5vh;
     margin-bottom: 4.5vh;
   }
-  p{
+  p {
     font-size: 14px;
     color: #2f2f2f;
   }
@@ -428,7 +504,6 @@ h4 {
   .pWrap {
     font-size: 14px;
   }
-
 
   /*retreat*/
   .section {

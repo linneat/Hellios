@@ -22,6 +22,10 @@ h1 {
   font-weight: normal;
 }
 
+p{
+  color:#2f2f2f;
+}
+
 /*navbar*/
 
 .nav {
@@ -311,21 +315,21 @@ h4 {
   margin-left: 4%;
 }
 
-.boldFont{
+.boldFont {
   font-weight: bold;
 }
 
-.mapImg{
+.mapImg {
   width: 15vw;
   height: 15vw;
 }
 
-.pMarginImgTop{
+.pMarginImgTop {
   margin-top: 0;
 }
 
 /*priser*/
-.pricesHeadings{
+.pricesHeadings {
   color: #4a4a4a;
   text-align: center;
   margin-top: 6%;
@@ -333,17 +337,17 @@ h4 {
   font-size: 2.8vw;
 }
 
-.kontaktHeading{
+.kontaktHeading {
   margin-top: 0%;
 }
 
-.boldCenter{
+.boldCenter {
   text-align: center;
   color: #4a4a4a;
   font-weight: bold;
 }
 
-.boxKontakt{
+.boxKontakt {
   text-align: center;
   border-style: solid;
   border-color: #cacaca;
@@ -351,20 +355,20 @@ h4 {
   width: 30%;
   padding-top: 3%;
   padding-bottom: 3%;
-  margin:auto;
+  margin: auto;
   margin-top: 2%;
   margin-bottom: 15%;
 }
 
-.lineInBox{
+.lineInBox {
   margin-bottom: 6%;
 }
 
-.priceBox{
+.priceBox {
   width: 53%;
   margin-left: 9%;
   margin-right: 9%;
-  margin:auto;
+  margin: auto;
   margin-bottom: 12%;
 }
 
@@ -376,12 +380,62 @@ h4 {
   flex: 70%;
 }
 
-.boldH{
+.boldH {
   font-weight: bold;
-  color:#4a4a4a;
+  color: #4a4a4a;
 }
 
-.columnRightAlign{
+.columnRightAlign {
   text-align: right;
   flex: 30%;
+}
+
+/*Responsive*/
+/* for phones max-width 414px --> the biggest iphones */
+@media screen and (max-width: 414px) {
+  /*index page*/
+}
+/* for phones max-width 1024px --> for ipads*/
+@media screen and (min-device-width: 415px) and (max-width: 1024px) {
+  /* index page*/
+}
+
+/* ipad pro*/
+@media screen and (min-device-width: 769px) and (max-width: 1024px) {
+  /* index page*/
+  .nav ul {
+    margin-top: 3%;
+  }
+
+  .nav li {
+    padding: 6px 6px;
+    font-size: 13px;
+  }
+
+  .nav li button {
+    padding: 7px;
+  }
+
+  .line {
+    margin-top: 4.5vh;
+    margin-bottom: 4.5vh;
+  }
+  p{
+    font-size: 14px;
+    color: #2f2f2f;
+  }
+
+  .pWrap {
+    font-size: 14px;
+  }
+
+
+  /*retreat*/
+  .section {
+    margin-top: 4vh;
+  }
+
+  .boxesWrap {
+    margin-top: 4vh;
+  }
 }

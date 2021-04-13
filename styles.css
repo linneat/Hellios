@@ -323,3 +323,57 @@ h4 {
 .pMarginImgTop{
   margin-top: 0;
 }
+
+/*priser*/
+.pricesHeadings{
+  color: #585858;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 4%;
+}
+
+.boldCenter{
+  text-align: center;
+  color: #585858;
+  font-weight: bold;
+}
+
+.boxKontakt{
+  text-align: center;
+  border-style: solid;
+  border-color: #cacaca;
+  border-radius: 5px;
+  width: 30%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  margin:auto;
+  margin-top: 2%;
+}
+
+.lineInBox{
+  margin-bottom: 6%;
+}
+
+.priceBox{
+  width: 50%;
+  margin-left: 9%;
+  margin-right: 9%;
+  margin:auto;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 60%;
+}
+
+.boldH{
+  font-weight: bold;
+}
+
+.columnRightAlign{
+  text-align: right;
+  flex: 30%;
+}

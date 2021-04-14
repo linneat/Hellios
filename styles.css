@@ -1,11 +1,14 @@
 @import url("https://fonts.googleapis.com/css?family=Barlow&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
 html {
   height: 100%;
 }
 body {
   padding: 0;
   margin: 0;
-  font-family: Barlow;
+  font-family: Raleway, sans-serif;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -31,24 +34,26 @@ span {
 }
 
 /*navbar*/
-
+nav{
+  display: flex;
+  justify-content: space-between;
+}
 .nav {
   height: 75px;
   background-color: white;
   /* overflow: hidden;*/
   padding-left: 10%;
   padding-right: 10%;
+  align-items: center;
 }
 
-.nav ul {
-  float: right;
-}
 
 .nav li {
   display: inline;
   text-align: center;
   padding: 9px 12px;
-  font-size: 14px;
+  font-size: 12px;
+  letter-spacing: 1px;
 }
 
 .navLi {
@@ -83,6 +88,16 @@ span {
   margin: 7px;
   margin-left: 0%;
   height: 80%;
+}
+.burgerMenu{
+  display: none;
+}
+
+.burgerMenu div{
+  width: 26px;
+  height: 3px;
+  margin: 5px;
+  background-color: #B1DEE3;
 }
 /*footer*/
 .footwrap {
@@ -404,6 +419,9 @@ h4 {
 /* for phones max-width 414px --> the biggest iphones */
 @media screen and (max-width: 415px) {
   /*index page*/
+  body{
+    display: none;
+  }
   .nav {
     height: 40px;
     padding-left: 2%;

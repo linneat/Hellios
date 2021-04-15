@@ -418,7 +418,7 @@ h4 {
 /* ipad pro*/
 @media screen and (min-device-width: 769px) and (max-width: 1024px) {
   /* index page*/
-  .nav ul {
+  .navUl {
     margin-top: 3%;
   }
 
@@ -469,7 +469,7 @@ h4 {
     padding-right: 2%;
   }
 
-  .nav ul {
+  .navUl {
     position: absolute;
     right: 0px;
     height: 92vh;
@@ -482,7 +482,7 @@ h4 {
     align-items: center;
     width: 50%;
     transform: translateX(100%);
-    transition: 0.5 ease-in;
+   transition: 0.5s ease-in-out;
   }
 
   .nav li {
@@ -546,7 +546,7 @@ h4 {
 
   .imgLink {
     width: 77vw;
-    height: 36vh;
+    height: 66vw;
   }
 
   .paddingTopPhone {

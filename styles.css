@@ -478,7 +478,7 @@ h4 {
     align-items: center;
     width: 100%;
     transform: translateX(100%);
-    transition: 0.4s ease-in-out;
+    transition: 0.15s ease-in-out;
   }
 
   .nav li {
@@ -518,15 +518,15 @@ h4 {
     height: 100vh;
   }
 
-  .toggle .1line{
-    transform: rotate(-45deg translate(-5px,6px));
+  .line-change .topline{
+    transform: rotate(-45deg) translate(-5px,6px);
   }
 
-  .toggle .2line{
-    
+  .line-change .middleline{
+    opacity: 0;
   }
-  .toggle .3line{
-    transform: rotate(-45deg translate(-5px,-6px));
+  .line-change .bottomline{
+    transform: rotate(45deg) translate(-5px,-6px);
   }
 
   .burgerMenu {
@@ -549,12 +549,12 @@ h4 {
   }
 
   .headingCenter {
-    font-size: 6vw;
+    font-size: 6.5vw;
     margin-top: 8%;
     color: #2f2f2f;
   }
   .heading2Center {
-    top: 46%;
+    display: none;
   }
 
   p {

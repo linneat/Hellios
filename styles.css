@@ -81,12 +81,13 @@ nav {
   border-color: #b1b1b1;
   border-radius: 3px;
   border-style: solid;
+  cursor: pointer;
 }
 
 .logo {
   margin: 7px;
   margin-left: 0%;
-  height: 80%;
+  height: 60px;
 }
 .burgerMenu {
   display: none;

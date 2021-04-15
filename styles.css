@@ -69,11 +69,6 @@ nav {
   color: black;
 }
 
-.nav li.active {
-  background-color: #4caf50;
-  color: white;
-}
-
 .nav li button {
   padding: 10px;
   background-color: #f6f3ed;
@@ -455,7 +450,7 @@ h4 {
   }
 }
 
-/* for phones max-width 414px --> the biggest iphones .... prøv med max-width 923 el 924*/
+/* for phones max-width 768px*/
 @media screen and (max-width: 768px) {
   /*index page*/
   .bodyWrap {
@@ -477,13 +472,13 @@ h4 {
     top: 5vh;
     background-color: white;
     padding-inline-start: 0px;
-    padding: 4%;
+    padding-top: 6%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 50%;
+    width: 100%;
     transform: translateX(100%);
-   transition: 0.5s ease-in-out;
+    transition: 0.4s ease-in-out;
   }
 
   .nav li {
@@ -492,8 +487,46 @@ h4 {
     letter-spacing: 1px;
   }
 
-  .nav-active{
+  .nav-active {
     transform: translateX(0%);
+  }
+
+  .nav-active li {
+    opacity: 1;
+    font-size: 17px;
+    letter-spacing: 1px;
+    padding: 20px;
+  }
+
+  .nav-active li button {
+    display: contents;
+    text-decoration: none;
+    font-size: 17px;
+    color: #3c3c3c;
+  }
+
+  .nav-active li a {
+    text-decoration: none;
+    color: #3c3c3c;
+  }
+
+  .nav-activeContent {
+    display: none;
+  }
+
+  .nav-active-body {
+    height: 100vh;
+  }
+
+  .toggle .1line{
+    transform: rotate(-45deg translate(-5px,6px));
+  }
+
+  .toggle .2line{
+    
+  }
+  .toggle .3line{
+    transform: rotate(-45deg translate(-5px,-6px));
   }
 
   .burgerMenu {
@@ -517,7 +550,7 @@ h4 {
 
   .headingCenter {
     font-size: 6vw;
-    top: 32%;
+    margin-top: 8%;
     color: #2f2f2f;
   }
   .heading2Center {
@@ -535,10 +568,6 @@ h4 {
     margin-right: 7%;
   }
 
-  .line {
-    margin-left: 0;
-    margin-right: 0;
-  }
   .containerPicLinks {
     flex-direction: column;
     margin-left: 0%;
@@ -602,37 +631,37 @@ h4 {
   .line {
     margin-left: 6%;
     margin-right: 6%;
-    margin-top: 8vh;
-    margin-bottom: 8vh;
+    margin-top: 12%;
+    margin-bottom: 12%;
   }
 }
 
 /* for phones max-width 1024px --> for ipads*/
-@media screen and (min-device-width: 415px) and (max-width: 1024px) {
+@media screen and (min-device-width: 769px) and (max-width: 1024px) {
   /* index page*/
   .nav {
     padding-left: 8%;
     padding-right: 8%;
   }
 
-  .nav li{
+  .nav li {
     font-size: 10px;
   }
 
-  .nav li button{
+  .nav li button {
     font-size: 11px;
     padding: 4px;
   }
 
-  .logo{
+  .logo {
     height: 55px;
   }
 
-  .textCat{
+  .textCat {
     font-size: 13px;
   }
 
-  .foot li{
+  .foot li {
     font-size: 10px;
   }
 }

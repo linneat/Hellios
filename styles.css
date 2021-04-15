@@ -670,12 +670,12 @@ h4 {
     margin-top: 0;
   }
 
-  span{
+  span {
     font-size: 14px;
     margin-left: 3%;
   }
 
-  .boldFont{
+  .boldFont {
     margin-left: 0%;
   }
 
@@ -685,32 +685,33 @@ h4 {
     display: flex;
     margin: auto;
     margin-top: 6%;
-}
+  }
 
-/*priser*/
-.pricesHeadings {
-  margin-top: 10%;
-  margin-bottom: 8%;
-  font-size: 7vw;
-}
+  /*priser*/
+  .pricesHeadings {
+    margin-top: 10%;
+    margin-bottom: 8%;
+    font-size: 7vw;
+  }
 
-.columnRightAlign {
-  align-self: flex-end;
-  flex: 25%;
-}
+  .columnRightAlign {
+    align-self: flex-end;
+    flex: 25%;
+  }
 
-.priceBox {
-  width: 98%;
-  font-size: 14px;
-}
+  .priceBox {
+    width: 98%;
+    font-size: 14px;
+  }
 
-.boxKontakt{
-  width: 67%;
-  padding-top: 4%;
-  padding-bottom: 4%;
-  margin: auto;
-  margin-top: 9%;
-  margin-bottom: 21%;
+  .boxKontakt {
+    width: 67%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    margin: auto;
+    margin-top: 9%;
+    margin-bottom: 21%;
+  }
 }
 /* for phones max-width 1024px --> for ipads*/
 @media screen and (min-device-width: 769px) and (max-width: 1024px) {

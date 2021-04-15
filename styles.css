@@ -34,7 +34,7 @@ span {
 }
 
 /*navbar*/
-nav{
+nav {
   display: flex;
   justify-content: space-between;
 }
@@ -46,7 +46,6 @@ nav{
   padding-right: 10%;
   align-items: center;
 }
-
 
 .nav li {
   display: inline;
@@ -89,15 +88,15 @@ nav{
   margin-left: 0%;
   height: 80%;
 }
-.burgerMenu{
+.burgerMenu {
   display: none;
 }
 
-.burgerMenu div{
+.burgerMenu div {
   width: 26px;
   height: 3px;
   margin: 5px;
-  background-color: #B1DEE3;
+  background-color: #b1dee3;
 }
 /*footer*/
 .footwrap {
@@ -416,9 +415,53 @@ h4 {
 }
 
 /*Responsive*/
-/* for phones max-width 414px --> the biggest iphones */
+/* ipad pro*/
+@media screen and (min-device-width: 769px) and (max-width: 1024px) {
+  /* index page*/
+  .nav ul {
+    margin-top: 3%;
+  }
+
+  .nav li {
+    padding: 6px 6px;
+    font-size: 13px;
+  }
+
+  .nav li button {
+    padding: 7px;
+  }
+
+  .line {
+    margin-top: 4.5vh;
+    margin-bottom: 4.5vh;
+  }
+  p {
+    font-size: 14px;
+    color: #2f2f2f;
+  }
+
+  .pWrap {
+    font-size: 14px;
+  }
+
+  /*retreat*/
+  .section {
+    margin-top: 4vh;
+  }
+
+  .boxesWrap {
+    margin-top: 4vh;
+  }
+}
+
+/* for phones max-width 414px --> the biggest iphones .... prøv med max-width 923 el 924*/
 @media screen and (max-width: 768px) {
   /*index page*/
+  .bodyWrap {
+    position: absolute;
+    width: 100%;
+    overflow-x: hidden;
+  }
 
   .nav {
     height: 60px;
@@ -426,7 +469,7 @@ h4 {
     padding-right: 2%;
   }
 
-  .nav ul{
+  .nav ul {
     position: absolute;
     right: 0px;
     height: 92vh;
@@ -434,22 +477,32 @@ h4 {
     background-color: white;
     padding-inline-start: 0px;
     padding: 4%;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     width: 50%;
     transform: translateX(100%);
+    transition: 0.5 ease-in;
   }
 
   .nav li {
-    display: flex;
-    flex-direction: column;
-    
+    opacity: 0;
     font-size: 12px;
     letter-spacing: 1px;
-}
+  }
+
+  .nav-active{
+    transform: translateX(0%);
+  }
+
+  .burgerMenu {
+    display: block;
+    cursor: pointer;
+  }
   .logo {
-      margin-top: 3px;
-      margin-bottom: auto;
-      height: 47px;
+    margin-top: 3px;
+    margin-bottom: auto;
+    height: 47px;
   }
 
   .content {
@@ -527,73 +580,58 @@ h4 {
   }
 
   /*behandlingsophold*/
-  .boxesWrap{
+  .boxesWrap {
     flex-direction: column;
     margin-top: 11%;
   }
 
-  .box{
+  .box {
     width: 100%;
     margin-bottom: 13%;
   }
 
-  .fontItalic{
+  .fontItalic {
     margin-top: -3%;
   }
 
-  .section{
+  .section {
     margin-top: -3%;
   }
 
-  .line{
+  .line {
     margin-left: 6%;
     margin-right: 6%;
     margin-top: 8vh;
-    margin-bottom: 8vh;;
+    margin-bottom: 8vh;
   }
 }
 
 /* for phones max-width 1024px --> for ipads*/
 @media screen and (min-device-width: 415px) and (max-width: 1024px) {
   /* index page*/
-}
-
-/* ipad pro*/
-@media screen and (min-device-width: 769px) and (max-width: 1024px) {
-  /* index page*/
-  .nav ul {
-    margin-top: 3%;
-
+  .nav {
+    padding-left: 8%;
+    padding-right: 8%;
   }
 
-  .nav li {
-    padding: 6px 6px;
+  .nav li{
+    font-size: 10px;
+  }
+
+  .nav li button{
+    font-size: 11px;
+    padding: 4px;
+  }
+
+  .logo{
+    height: 55px;
+  }
+
+  .textCat{
     font-size: 13px;
   }
 
-  .nav li button {
-    padding: 7px;
-  }
-
-  .line {
-    margin-top: 4.5vh;
-    margin-bottom: 4.5vh;
-  }
-  p {
-    font-size: 14px;
-    color: #2f2f2f;
-  }
-
-  .pWrap {
-    font-size: 14px;
-  }
-
-  /*retreat*/
-  .section {
-    margin-top: 4vh;
-  }
-
-  .boxesWrap {
-    margin-top: 4vh;
+  .foot li{
+    font-size: 10px;
   }
 }

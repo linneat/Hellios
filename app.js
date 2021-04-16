@@ -1,9 +1,7 @@
 const navAppear = () => {
   const burgerMenu = document.querySelector(".burgerMenu");
 
-  burgerMenu.addEventListener("click", () => {
-    toggleBurgerMenu();
-  });
+  burgerMenu.addEventListener("click", toggleBurgerMenu);
 };
 
 const toggleBurgerMenu = () => {

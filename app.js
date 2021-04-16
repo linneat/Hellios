@@ -18,4 +18,14 @@ const toggleBurgerMenu = () => {
   nav.classList.toggle("nav-active li button");
 };
 
+
+
+const redirectHttps = () => {
+  const host = "hellios-retreat.dk";
+  if (window.location.host == host && window.location.protocol != "https:") {
+    window.location.protocol = "https:";
+  }
+};
+
+redirectHttps();
 navAppear();

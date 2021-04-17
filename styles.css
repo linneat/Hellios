@@ -58,13 +58,15 @@ nav {
 .navLi {
   color: #3c3c3c;
   text-decoration: none;
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
 
 .nav li button:hover {
   background-color: #ddd;
 }
 
-.nav li:not(:last-child):hover {
+.navLi:not(:last-child):hover {
   background-color: #ddd;
   color: black;
 }
@@ -499,11 +501,15 @@ h4 {
     padding: 20px;
   }
 
-  .nav-active li button {
+  .nav-active a button {
     display: contents;
     text-decoration: none;
     font-size: 17px;
     color: #3c3c3c;
+  }
+
+  .contactMenuItem{
+    text-decoration: none;
   }
 
   .nav-active li a {
@@ -629,7 +635,7 @@ h4 {
 
   .retreatLink {
     margin-left: 0%;
-}
+  }
 
   /*om*/
   .pImgWrap {

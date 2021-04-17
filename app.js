@@ -14,11 +14,7 @@ const toggleBurgerMenu = () => {
   content.classList.toggle("nav-activeContent");
   burgerMenu.classList.toggle("line-change");
   nav.classList.toggle("nav-active");
-  nav.classList.toggle("nav-active li");
-  nav.classList.toggle("nav-active li button");
 };
-
-
 
 const redirectHttps = () => {
   const host = "hellios-retreat.dk";

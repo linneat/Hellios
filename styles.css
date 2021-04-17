@@ -413,48 +413,8 @@ h4 {
   flex: 30%;
 }
 
-/*Responsive*/
-/* ipad pro*/
-@media screen and (min-device-width: 769px) and (max-width: 1024px) {
-  /* index page*/
-  .navUl {
-    margin-top: 3%;
-  }
-
-  .nav li {
-    padding: 6px 6px;
-    font-size: 13px;
-  }
-
-  .nav li button {
-    padding: 7px;
-  }
-
-  .line {
-    margin-top: 4.5vh;
-    margin-bottom: 4.5vh;
-  }
-  p {
-    font-size: 14px;
-    color: #2f2f2f;
-  }
-
-  .pWrap {
-    font-size: 14px;
-  }
-
-  /*retreat*/
-  .section {
-    margin-top: 4vh;
-  }
-
-  .boxesWrap {
-    margin-top: 4vh;
-  }
-}
-
 /* for phones max-width 768px*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 843px) {
   /*index page*/
   .bodyWrap {
     position: absolute;
@@ -484,7 +444,7 @@ h4 {
     transition: 0.15s ease-in-out;
   }
 
-  .nav li {
+  .nav .navLi {
     opacity: 0;
     font-size: 12px;
     letter-spacing: 1px;
@@ -494,7 +454,7 @@ h4 {
     transform: translateX(0%);
   }
 
-  .nav-active li {
+  .nav-active .navLi {
     opacity: 1;
     font-size: 17px;
     letter-spacing: 1px;
@@ -508,8 +468,14 @@ h4 {
     color: #3c3c3c;
   }
 
-  .contactMenuItem{
+  .nav-active #navBut {
+    font-size: 13px;
+  }
+
+  .contactMenuItem {
     text-decoration: none;
+    padding: 20px;
+    font-size: 14px;
   }
 
   .nav-active li a {
@@ -723,16 +689,55 @@ h4 {
     margin-bottom: 50%;
   }
 }
-/* for phones max-width 1024px --> for ipads*/
-@media screen and (min-device-width: 769px) and (max-width: 1024px) {
+
+@media screen and (min-width: 451px) and (max-width: 845px) {
+  .pricesHeadings {
+    font-size: 5vw;
+  }
+}
+
+/*Responsive*/
+/* ipad pro*/
+@media screen and (min-width: 846px) and (max-width: 1024px) {
   /* index page*/
-  .nav {
-    padding-left: 8%;
-    padding-right: 8%;
+  .navUl {
+    margin-top: 3%;
   }
 
   .nav li {
-    font-size: 10px;
+    padding: 6px 6px;
+    font-size: 13px;
+  }
+
+  .nav li button {
+    padding: 7px;
+  }
+
+  .line {
+    margin-top: 4.5vh;
+    margin-bottom: 4.5vh;
+  }
+  p {
+    font-size: 14px;
+    color: #2f2f2f;
+  }
+
+  .pWrap {
+    font-size: 14px;
+  }
+
+  /*retreat*/
+  .section {
+    margin-top: 4vh;
+  }
+
+  .boxesWrap {
+    margin-top: 4vh;
+  }
+
+  .nav {
+    padding-left: 8%;
+    padding-right: 8%;
   }
 
   .nav li button {
@@ -750,5 +755,10 @@ h4 {
 
   .foot li {
     font-size: 10px;
+  }
+
+  /*priser*/
+  .boxKontakt {
+    width: 45%;
   }
 }
